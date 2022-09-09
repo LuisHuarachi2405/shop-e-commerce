@@ -1,0 +1,35 @@
+.header {
+  height: 100px;
+  background-color: gray;
+
+  &Sections {
+    display: flex;
+
+    &SectionLeft,
+    &SectionRight {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+
+    &SectionCenter {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+
+  &List {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &Link {
+    display: block;
+    padding: 11px 19px;
+    color: black;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
